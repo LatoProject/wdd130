@@ -71,9 +71,24 @@ h1 {
 
 }
 
+.hero {
+    position: relative;
+}
+
 .hero article img {
     float: left;
     width: 125px;
+    position: absolute;
+
+}
+
+.hero h1 {
+    position: absolute;
+
+}
+
+.hero article img {
+    float: right;
 }
 
 nav.socialmedia {
