@@ -9,25 +9,43 @@
     box-sizing: border-box;
 }
 
+a {
+    color: rgb(3, 3, 109);
+}
+
+header,
+.grid,
+footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: steelblue;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 body {
     font-size: 16px;
     font-family: Roboto, Arial, sans-serif;
 
 }
 
-nav {
-    background-color: darkblue;
-    padding: 10px;
-}
-
 nav a {
-    color: white;
     display: block;
-    padding: 20px;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+    ;
 }
 
 h1 {
-    color: darkblue;
+    border-bottom: 10x solid #222;
 }
 
 img {
@@ -40,27 +58,20 @@ img {
 }
 
 p {
-    padding: 0px;
+    padding: 1rem;
 }
 
 main {
-    max-width: 840px;
+    grid-column: 2/3;
+    grid-row: 1 / 2;
+    margin: 1rem;
 }
 
 aside {
     width: 20rem;
-    margin: var(--margin);
-    border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
-    text-align: var(--text-align);
-
-    aside h2 {
-        position: absolute;
-        top: 67px;
-        left: 150px;
-    }
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 
 }
 
@@ -70,13 +81,13 @@ aside img {
 }
 
 main img {
-    width: 150px;
+    width: 19rem;
     height: auto;
     border: 2px solid #333;
     padding: 5px;
     box-shadow: 0 4px 10px rgba(0 0 0 / .3);
     float: right;
-    margin: 0 0 1rem;
+    margin: 1rem 0;
 
 }
 
@@ -85,20 +96,37 @@ p {
 }
 
 footer {
-    margin-top: 15px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     border-top: 1px solid #000;
     text-align: var(--text-align);
+    background-color: #3e3e3e;
+    color: #fff;
+    padding: 2rem 1rem;
+
+}
+
+ul {
+    list-style: none;
+    padding: 1rem;
 }
 
 /* Class selectors */
 .box {
-    margin: var(--margin);
     border: 1px solid rgb(0 0 0 / 10%);
     padding: 1rem;
     background-color: #67cfb0;
     color: #000;
+
 }
 
 .indent {
     padding-left: 2%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr, 2fr;
+    align-items: center;
+
 }
