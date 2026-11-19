@@ -71,10 +71,6 @@ h1 {
 
 }
 
-.hero {
-    position: relative;
-}
-
 .hero article img {
     float: left;
     width: 125px;
@@ -134,4 +130,9 @@ header nav {
     text-decoration: none;
     transform: scale(1.1);
     cursor: pointer;
+}
+
+.hero article {
+    position: absolute;
+    float: right;
 }
