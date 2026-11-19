@@ -72,7 +72,7 @@ h1 {
 }
 
 .hero article img {
-    float: left;
+    float: right;
     width: 125px;
     position: absolute;
 
