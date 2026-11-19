@@ -4,9 +4,10 @@
 }
 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+
 }
 
 a {
@@ -58,7 +59,7 @@ img {
 }
 
 p {
-    padding: 1rem;
+    padding: 0;
 }
 
 main {
@@ -68,26 +69,29 @@ main {
 }
 
 aside {
-    width: 20rem;
+    width: 300px;
+    margin: 10px 0;
     position: relative;
-    grid-column: 1/2;
-    grid-row: 1/2;
 
 }
 
 aside img {
-    width: 200px;
+    width: 100%;
     height: auto;
+    text-align: center;
+}
+
+aside h2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 3rem;
 }
 
 main img {
-    width: 19rem;
+    width: 150px;
     height: auto;
-    border: 2px solid #333;
-    padding: 5px;
-    box-shadow: 0 4px 10px rgba(0 0 0 / .3);
     float: right;
-    margin: 1rem 0;
 
 }
 
@@ -113,20 +117,10 @@ ul {
 
 /* Class selectors */
 .box {
-    border: 1px solid rgb(0 0 0 / 10%);
+    border: 1px solid #b71234;
     padding: 1rem;
-    background-color: #67cfb0;
-    color: #000;
-
-}
-
-.indent {
-    padding-left: 2%;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: 1fr, 2fr;
-    align-items: center;
+    background-color: #cccaca;
+    color: #1a044e;
+    margin: 1rem;
 
 }
