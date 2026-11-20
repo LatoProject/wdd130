@@ -108,7 +108,6 @@ nav.socialmedia img:hover {
 
 header {
     display: flex;
-    grid-template-columns: auto 1fr;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
@@ -125,6 +124,7 @@ header nav {
     align-items: center;
     transform: scale(1.1);
     cursor: pointer;
+    grid-template-columns: auto 1fr;
 }
 
 .hero article {
