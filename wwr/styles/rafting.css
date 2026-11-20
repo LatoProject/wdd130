@@ -110,7 +110,7 @@ header {
     display: grid;
     grid-template-columns: auto 1fr;
     justify-content: space-between;
-    align-items: center;
+    align-items: right;
     padding: 10px 20px;
 
 }
