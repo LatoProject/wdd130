@@ -107,11 +107,12 @@ nav.socialmedia img:hover {
 }
 
 header {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto 1fr;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    grid-template-columns: auto 1fr;
+
 }
 
 header img {
