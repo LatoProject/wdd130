@@ -110,7 +110,7 @@ header {
     display: grid;
     grid-template-columns: auto 1fr;
     justify-content: space-between;
-    align-items: right;
+    align-items: center;
     padding: 10px 20px;
 
 }
@@ -123,13 +123,12 @@ header img {
 header nav {
     display: flex;
     gap: 20px;
+    justify-content: flex-end;
     align-items: center;
-    transform: scale(1.1);
-    cursor: pointer;
 
 }
 
 .hero article {
-    position: absolute;
-    float: right;
+    position: relative;
+    right: 0;
 }
