@@ -111,6 +111,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    grid-template-columns: auto 1fr;
 }
 
 header img {
@@ -124,7 +125,7 @@ header nav {
     align-items: center;
     transform: scale(1.1);
     cursor: pointer;
-    grid-template-columns: auto 1fr;
+
 }
 
 .hero article {
