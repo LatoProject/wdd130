@@ -108,9 +108,9 @@ nav.socialmedia img:hover {
 
 header {
     display: grid;
-    grid-template-columns: auto 1fr;
-    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
+    justify-content: space-between;
     padding: 10px 20px;
 
 }
@@ -129,6 +129,6 @@ header nav {
 }
 
 .hero article {
-    position: relative;
+    position: absolute;
     right: 0;
 }
