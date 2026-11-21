@@ -129,6 +129,10 @@ header nav {
 
 }
 
+header nav a {
+    text-decoration: none;
+}
+
 .hero article {
     position: absolute;
     right: 0;
