@@ -63,13 +63,13 @@ article {
 
 h1 {
     position: absolute;
-    top: 20px;
+    top: 16%;
+    left: o;
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: #fff;
+
+    color: #050505;
 
 }
 
@@ -231,4 +231,163 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: 20px;
+}
+
+.company-info {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.company-info h1 {
+    margin-bottom: 11px;
+    font-size: 24px;
+}
+
+.company-info address {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1.4;
+    font-size: 14px;
+}
+
+.main-content {
+    display: flex;
+    gap: 31px;
+    margin-bottom: 31px;
+    align-items: stretch;
+}
+
+.map-section {
+    flex: 1;
+    border: 1px solid #ccc;
+    background-color: #e6e6e6;
+}
+
+.map-section iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+
+}
+
+.form-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.form-group,
+.form-group-textarea {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.form-group label,
+.form-group-textarea label {
+    width: 119px;
+    font-size: 14px;
+    padding-top: 8px;
+
+}
+
+.form-control,
+.form-group-textarea textarea {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    font-family: inherit;
+}
+
+.form-group-textarea textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+    padding-top: 5px;
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.radio-option input {
+    margin-right: 10px;
+}
+
+.checkbox-group {
+    margin-left: 120px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.checkbox-group input {
+    margin-right: 10px;
+}
+
+.submit-btn {
+    margin-left: 120px;
+    padding: 10px;
+    background-color: #e0e0e0;
+    border: 1px solid #999;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    width: calc(100% - 120px);
+}
+
+.submit-btn:hover {
+    background-color: #ccc;
+}
+
+.employees-section {
+    border: 1px solid #333;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.employees-section h2 {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.employee-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.employee-card {
+    width: 30%;
+}
+
+.employee-img-placeholder {
+    width: 100px;
+    height: 100px;
+    background-color: #d3d3d3;
+    margin: 0 auto 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.employee-card p {
+    font-size: 14px;
+    font-weight: bold;
 }
