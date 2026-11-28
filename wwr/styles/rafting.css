@@ -377,11 +377,13 @@ footer {
 }
 
 .employee-img-placeholder {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
     background-color: #d3d3d3;
-    margin: 0 auto 10px auto;
-    display: flex;
+    margin: 0 auto 14px auto;
+    display: block;
     justify-content: center;
     align-items: center;
     font-size: 40px;
@@ -390,4 +392,11 @@ footer {
 .employee-card p {
     font-size: 14px;
     font-weight: bold;
+}
+
+.employee-img-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
