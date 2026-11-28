@@ -6,11 +6,6 @@
     --body-font: Arial, Helvetica, sans-serif;
 }
 
-header {
-    background-color: var(--primary-color);
-    columns: var(--accent2-color);
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -62,13 +57,8 @@ article {
 }
 
 h1 {
-    position: absolute;
-    top: 16%;
-    left: o;
-    width: 100%;
-    padding: 16px;
     text-align: center;
-
+    margin: 30px 0;
     color: #050505;
 
 }
@@ -175,7 +165,7 @@ header nav a:hover {
 .history-section {
     text-align: center;
     margin-top: 120px;
-    margin-top: 40px;
+
 }
 
 .history-content {
@@ -400,3 +390,5 @@ footer {
     object-fit: cover;
     display: block;
 }
+
+/* <form action="#" method="POST" > <div class="form-group" > <label for="name" > Name</label > <input type="text" id="name" name="name" class="form-control" placeholder="Placeholder" > </div > <div class="form-group" > <label for="email" > Email</label > <input type="email" id="email" name="email" class="form-control" placeholder="Placeholder" required > </div > <div class="form-group" > <label > Message<br > Purpose</label > <div class="radio-group" > <label class="radio-option" > <input type="radio" name="purpose" value="general" checked > General Inquiry </label > <label class="radio-option" > <input type="radio" name="purpose" value="reservation" > Reservation Question </label > <label class="radio-option" > <input type="radio" name="purpose" value="suggestion" > Website Suggestion </label > </div > </div > <div class="form-group-textarea" > <label for="message" > Message</label > <textarea id="message" name="message" placeholder="Type here" required > </textarea > </div > <div class="checkbox-group" > <input type="checkbox" id="subscribe" name="subscribe" checked > <label for="subscribe" > Please Subscribe me to the monthly newsletter</label > </div > <button type="submit" class="submit-btn" > Get in Touch !</button > </form >*/
